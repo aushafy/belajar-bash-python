@@ -1,10 +1,11 @@
 #!/bin/bash
 
+#input branch yang akan di push
 read -p "branch name : " branch
 
 
-git config --local user.email "yusuf.luai01@gmail.com"
-git config --local user.name "Yusuf Luai"
+git config --local user.email "" #isi dengan email 
+git config --local user.name "" #isi dengan username
 
 echo "[+] Enter your commit message:"
 read message
