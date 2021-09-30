@@ -4,8 +4,8 @@
 read -p "branch name : " branch
 
 
-git config --local user.email "" #isi dengan email 
-git config --local user.name "" #isi dengan username
+git config --local user.email "yusuf.luai01@gmail.com" #isi dengan email 
+git config --local user.name "yusufluai" #isi dengan username
 
 echo "[+] Enter your commit message:"
 read message
